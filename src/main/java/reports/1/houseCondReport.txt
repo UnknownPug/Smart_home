@@ -1,0 +1,57 @@
+Storey 1 : 
+	kitchen : 
+		Devices :
+			objects.Owen 
+			objects.Fridge 
+			objects.Microwave 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.WaterLeakSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@69d0a921]
+			Blinds : objects.Blinds@446cdf90
+	livingRoom : 
+		Devices :
+			objects.Tv 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+			objects.SensorsAndSystems.StrongWindSensor 
+		Windows : [objects.Window@799f7e29]
+			Blinds : objects.Blinds@4b85612c
+	bathRoom : 
+		Devices :
+			objects.WashingMachine 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.WaterLeakSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@277050dc]
+			Blinds : objects.Blinds@5c29bfd
+	entertainmentRoom : 
+		Devices :
+			objects.SmartSpeaker 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@7aec35a]
+			Blinds : objects.Blinds@67424e82
+	bedRoom1 : 
+		Devices :
+			objects.AirCondition 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@42110406]
+			Blinds : objects.Blinds@531d72ca
+	bedRoom2 : 
+		Devices :
+			objects.AirCondition 
+		Windows : [objects.Window@22d8cfe0]
+			Blinds : objects.Blinds@579bb367
+People: 
+	Andrew
+	Dmytro
+	Jiri
+	Katerina
+	Tomas
+	Luxanna
+Pets: 
+	Cat
+	Dog
+	Rat

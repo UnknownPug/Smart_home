@@ -1,0 +1,26 @@
+Electricity consumption: 
+objects.Fridge@5010be6 : 60kW - 600$
+objects.Tv@685f4c2e : 100kW - 1000$
+objects.AirCondition@7daf6ecc : 74kW - 740$
+objects.AirCondition@2e5d6d97 : 36kW - 360$
+objects.SmartSpeaker@238e0d81 : 208kW - 2080$
+objects.Owen@31221be2 : 70kW - 700$
+objects.WashingMachine@377dca04 : 65kW - 650$
+objects.Microwave@728938a9 : 83kW - 830$
+objects.SensorsAndSystems.LightSystem@21b8d17c : 45kW - 450$
+objects.SensorsAndSystems.FireSensor@6433a2 : 0kW - 0$
+objects.SensorsAndSystems.FireSensor@5910e440 : 0kW - 0$
+objects.SensorsAndSystems.FireSensor@6267c3bb : 0kW - 0$
+objects.SensorsAndSystems.FireSensor@533ddba : 0kW - 0$
+objects.SensorsAndSystems.FireSensor@246b179d : 0kW - 0$
+objects.SensorsAndSystems.WaterLeakSensor@7a07c5b4 : 2kW - 20$
+objects.SensorsAndSystems.WaterLeakSensor@26a1ab54 : 2kW - 20$
+objects.SensorsAndSystems.PowerOutageSensor@3d646c37 : 2kW - 20$
+objects.SensorsAndSystems.PowerOutageSensor@41cf53f9 : 2kW - 20$
+objects.SensorsAndSystems.PowerOutageSensor@5a10411 : 2kW - 20$
+objects.SensorsAndSystems.PowerOutageSensor@2ef1e4fa : 2kW - 20$
+objects.SensorsAndSystems.PowerOutageSensor@306a30c7 : 2kW - 20$
+objects.SensorsAndSystems.StrongWindSensor@b81eda8 : 0kW - 0$
+
+Water consumption: 
+objects.WashingMachine@377dca04 : 1440L - 1440$

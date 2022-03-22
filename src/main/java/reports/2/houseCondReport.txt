@@ -1,0 +1,67 @@
+Storey 1 : 
+	kitchen : 
+		Devices :
+			objects.Owen 
+			objects.Fridge 
+			objects.Microwave 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.WaterLeakSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@bebdb06, objects.Window@7a4f0f29]
+			Blinds : objects.Blinds@45283ce2
+			Blinds : objects.Blinds@2077d4de
+	livingRoom : 
+		Devices :
+			objects.Tv 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+			objects.SensorsAndSystems.StrongWindSensor 
+		Windows : [objects.Window@7591083d, objects.Window@77a567e1]
+			Blinds : objects.Blinds@736e9adb
+			Blinds : objects.Blinds@6d21714c
+	bathRoom : 
+		Devices :
+			objects.WashingMachine 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.WaterLeakSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@108c4c35, objects.Window@4ccabbaa]
+			Blinds : objects.Blinds@4bf558aa
+			Blinds : objects.Blinds@2d38eb89
+	entertainmentRoom : 
+		Devices :
+			objects.SmartSpeaker 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@5fa7e7ff, objects.Window@4629104a]
+			Blinds : objects.Blinds@27f8302d
+			Blinds : objects.Blinds@4d76f3f8
+	bedRoom1 : 
+		Devices :
+			objects.AirCondition 
+			objects.SensorsAndSystems.FireSensor 
+			objects.SensorsAndSystems.PowerOutageSensor 
+		Windows : [objects.Window@2d8e6db6, objects.Window@23ab930d]
+			Blinds : objects.Blinds@4534b60d
+			Blinds : objects.Blinds@3fa77460
+	bedRoom2 : 
+		Devices :
+			objects.AirCondition 
+		Windows : [objects.Window@619a5dff, objects.Window@1ed6993a]
+			Blinds : objects.Blinds@7e32c033
+			Blinds : objects.Blinds@7ab2bfe1
+	bedRoom3 : 
+		Devices :
+			objects.AirCondition 
+		Windows : []
+People: 
+	George
+	Alex
+	Jerry
+	Derek
+	Arnold
+	Karolina
+Pets: 
+	Cat
+	Dog
+	Rat

@@ -1,0 +1,91 @@
+People:
+George:
+  TV: 4
+  Fridge: 84
+  SmartSpeaker: 11
+  Owen: 7
+  Microwave: 8
+  WashingMachine: 3
+  Blinds: 16
+  AirCondition: 13
+  Windows: 17
+  Car: 6
+  Bicycle: 120
+  Skis: 122
+  LightSystem: 12
+
+Alex:
+  TV: 10
+  Fridge: 9
+  SmartSpeaker: 15
+  Owen: 10
+  Microwave: 3
+  WashingMachine: 10
+  Blinds: 12
+  AirCondition: 13
+  Windows: 15
+  Car: 6
+  Bicycle: 120
+  Skis: 128
+  LightSystem: 6
+
+Jerry:
+  TV: 5
+  Fridge: 16
+  SmartSpeaker: 18
+  Owen: 7
+  Microwave: 6
+  WashingMachine: 7
+  Blinds: 10
+  AirCondition: 10
+  Windows: 17
+  Car: 8
+  Bicycle: 120
+  Skis: 130
+  LightSystem: 10
+
+Derek:
+  TV: 7
+  Fridge: 16
+  SmartSpeaker: 15
+  Owen: 4
+  Microwave: 4
+  WashingMachine: 8
+  Blinds: 17
+  AirCondition: 15
+  Windows: 15
+  Car: 7
+  Bicycle: 120
+  Skis: 123
+  LightSystem: 11
+
+Arnold:
+  TV: 5
+  Fridge: 15
+  SmartSpeaker: 17
+  Owen: 8
+  Microwave: 3
+  WashingMachine: 12
+  Blinds: 12
+  AirCondition: 12
+  Windows: 9
+  Car: 7
+  Bicycle: 120
+  Skis: 124
+  LightSystem: 14
+
+Karolina:
+  TV: 5
+  Fridge: 14
+  SmartSpeaker: 13
+  Owen: 10
+  Microwave: 8
+  WashingMachine: 11
+  Blinds: 7
+  AirCondition: 8
+  Windows: 13
+  Car: 9
+  Bicycle: 120
+  Skis: 124
+  LightSystem: 21
+

@@ -1,0 +1,348 @@
+---Source device: objects.SensorsAndSystems.FireSensor@5ef04b5
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@5f4da5c3
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@443b7951
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@14514713
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@69663380
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.WaterLeakSensor@5b37e0d2
+
+Type of event: WATER_LEAK
+Source: objects.SensorsAndSystems.WaterLeakSensor
+Listeners: objects.SensorsAndSystems.WaterLeakSystem
+
+---Source device: objects.SensorsAndSystems.WaterLeakSensor@4459eb14
+
+Type of event: WATER_LEAK
+Source: objects.SensorsAndSystems.WaterLeakSensor
+Listeners: objects.SensorsAndSystems.WaterLeakSystem
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@5a2e4553
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@28c97a5
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@6659c656
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@6d5380c2
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@45ff54e6
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.StrongWindSensor@2328c243
+
+---Source device: objects.Fridge@255316f2
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.Fridge
+Listeners: objects.Person
+
+Type of event: EMPTY_FRIDGE
+Source: objects.Fridge
+Listeners: objects.Person
+
+---Source device: objects.Tv@41906a77
+
+Type of event: BROKEN_DEVICE
+Source: objects.Tv
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.Tv
+Listeners: objects.Person
+
+---Source device: objects.AirCondition@4b9af9a9
+
+Type of event: BROKEN_DEVICE
+Source: objects.AirCondition
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.AirCondition
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.AirCondition
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.AirCondition
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.AirCondition
+Listeners: objects.Person
+
+---Source device: objects.AirCondition@5387f9e0
+
+---Source device: objects.SmartSpeaker@6e5e91e4
+
+Type of event: BROKEN_DEVICE
+Source: objects.SmartSpeaker
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.SmartSpeaker
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.SmartSpeaker
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.SmartSpeaker
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.SmartSpeaker
+Listeners: objects.Person
+
+---Source device: objects.Owen@2cdf8d8a
+
+Type of event: BROKEN_DEVICE
+Source: objects.Owen
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.Owen
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.Owen
+Listeners: objects.Person
+
+---Source device: objects.WashingMachine@30946e09
+
+Type of event: BROKEN_DEVICE
+Source: objects.WashingMachine
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.WashingMachine
+Listeners: objects.Person
+
+Type of event: BROKEN_DEVICE
+Source: objects.WashingMachine
+Listeners: objects.Person
+
+---Source device: objects.Microwave@5cb0d902
+
+Type of event: BROKEN_DEVICE
+Source: objects.Microwave
+Listeners: objects.Person
+
+---Source device: objects.SensorsAndSystems.LightSystem@46fbb2c1
+
+---Source device: objects.AirCondition@1698c449
+
+---Source device: objects.SensorsAndSystems.FireSensor@5ef04b5
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@5f4da5c3
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@443b7951
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@14514713
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.FireSensor@69663380
+
+Type of event: FIRE
+Source: objects.SensorsAndSystems.FireSensor
+Listeners: objects.SensorsAndSystems.FireSystem
+
+---Source device: objects.SensorsAndSystems.WaterLeakSensor@5b37e0d2
+
+Type of event: WATER_LEAK
+Source: objects.SensorsAndSystems.WaterLeakSensor
+Listeners: objects.SensorsAndSystems.WaterLeakSystem
+
+---Source device: objects.SensorsAndSystems.WaterLeakSensor@4459eb14
+
+Type of event: WATER_LEAK
+Source: objects.SensorsAndSystems.WaterLeakSensor
+Listeners: objects.SensorsAndSystems.WaterLeakSystem
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@5a2e4553
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@28c97a5
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@6659c656
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@6d5380c2
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.PowerOutageSensor@45ff54e6
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+Type of event: POWER_OUTAGE
+Source: objects.SensorsAndSystems.PowerOutageSensor
+Listeners: objects.SensorsAndSystems.BackupGenerator, objects.SensorsAndSystems.BackupGenerator
+
+---Source device: objects.SensorsAndSystems.StrongWindSensor@2328c243
+
