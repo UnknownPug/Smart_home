@@ -1,80 +1,81 @@
-# This program was created as a semester project of the OMO
+# Semester Project - OMO
 
-## (CTU - OI winter semester 2021)
+### Czech Technical University in Prague (CTU) - Winter Semester 2021
 
-### Authors: Dmitry Rastvorov, Andrew Mamaev
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-### UML diagram of the project ([Powered by IntelliJ Ultimate](https://www.jetbrains.com/help/idea/class-diagram.html)):
-![[Image description]](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/2f382775dead5ad83e7d6f42b53f4cc6/omo_intellij_uml.png)
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-### USER CASE diagram of the smart home code ([Powered by draw.io](https://app.diagrams.net)):
-![[Image description]](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/3dc290c7ab15af62ee01adb747232cb4/Untitled_Diagram.drawio.png)
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-### Description
+#### Authors: Dmitry Rastvorov, Andrew Mamaev
 
-Full description of our project, paragraphs can be found in this .pdf file **(description of this project in Czech language)**: 
+---
 
-[Description_of_projekt_smart_home.pdf](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/d7908236074d105ca7f61f988187c8b1/Description_of_projekt_smart_home.pdf)
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-### For the understanding, we've scheduled the points as follows:
+### UML Diagram of the Project
+## [Powered by IntelliJ Ultimate](https://www.jetbrains.com/help/idea/class-diagram.html):
+![UML Diagram](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/2f382775dead5ad83e7d6f42b53f4cc6/omo_intellij_uml.png)
 
-##### " + " means that paragraph has been successfully completed.
-##### " * " means that we have some notes or explanation to this paragraph.
+---
 
-**F1**: +   * (All is in folder "objects").
+### Use Case Diagram of the Smart Home Code
+## [Powered by draw.io](https://app.diagrams.net):
+![Use Case Diagram](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/3dc290c7ab15af62ee01adb747232cb4/Untitled_Diagram.drawio.png)
 
-**F2**: +   * (Almost all devices have apies. Person owns one big api for the main devices of house 
-in ElectronicApi. Devices have state "turned on" for instance, 
-which we check before letting person use some device).
+---
 
-**F3**: +   * (Devices have active state defining if its turned on or not. We do not have Idle state,
-but once device is broken we increase its energy consumption, so its kinda suits).
+### Project Description
 
-**F4**: +   * (in folder API: ElectricityAPI, WaterAPI, FuncWearOutAPI, but we do not have gas appliances, in order
-to provide higher protection to residents of house we made all devices electric:) ).
-    
-**F5**: + 
+The full description of our project can be found in the following PDF file (**description in Czech**):
+[Description_of_project_smart_home.pdf](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/d7908236074d105ca7f61f988187c8b1/Description_of_projekt_smart_home.pdf)
 
-**F6**: +  * (overview of events you can find in objects/eventType, random generating
-of events is implemented in class Simulation).
+---
+
+### Status Overview of Project Sections
+
+The progress of the project has been tracked as follows:
+
+- A **"+"** indicates that the section has been successfully completed.
+- A **"*"** indicates that additional notes or explanations are provided for the section.
+
+**F1**: + * (All relevant objects can be found in the "objects" folder).
+
+**F2**: + * (Most devices are API-driven. The primary API for the main house devices is implemented within the `ElectronicApi`. Devices have states, such as "turned on," which are checked before allowing usage).
+
+**F3**: + * (Devices have an active state indicating whether they are turned on. While there is no explicit "Idle" state, when a device breaks, its energy consumption increases, serving as an approximation).
+
+**F4**: + * (In the "API" folder, you will find `ElectricityAPI`, `WaterAPI`, and `FuncWearOutAPI`. We have omitted gas appliances for safety reasons and made all devices electric).
+
+**F5**: +
+
+**F6**: + * (An overview of events is available in the `objects/eventType` folder. Random event generation is handled by the `Simulation` class).
 
 **F7**: +
 
-fire -> extinguishing a fire by fireSystem.
+- **Fire**: Extinguished by the fire suppression system.
+- **Water Leak**: Water tubes are closed by the water leak prevention system.
+- **Strong Wind**: Blinds are automatically closed.
+- **Empty Fridge**: A resident must go shopping to restock the fridge.
+- **Power Outage**: Devices are turned on by the backup generator.
+- **Broken Device**: A resident must repair it after finding the appropriate documentation.
 
-water leak -> closing tubes by waterLeakSystem.
+**F8**: + * (Reports for `Configuration` and `Configuration2` are located in the "reports/1" and "reports/2" folders).
 
-strongWind -> closing blinds.
-
-empty fridge -> person has to go to the shop and fill fridge with products.
-
-power outage -> turning on devices by generator.
-
-broken device -> person has to fix it but at first he must find the documentation.
-
-**F8**: + * (reports for Configuration and Configuration2 are created in folders reports/1 and reports/2).
-
-**F9**: + * (but we have only documentation. If smth is broken, device send notification to person
-    who has to find documentation in order to fix device).
+**F9**: + * (Documentation is available. When a device breaks, it sends a notification to the user, who must locate the documentation to repair it).
 
 **F10**: +
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-##### Patterny:
-●	State machine # folder "states" with different states.
 
-●	Factory/Factory method # factory method during constructing house in Configuration.
+---
 
-●	Decorator/Composite # Remotes.
+### Design Patterns Implemented:
 
-●	Singleton # configurations are represented as singleton classes.
+- **State Machine**: Located in the "states" folder.
+- **Factory/Factory Method**: Applied during house construction in `Configuration`.
+- **Decorator/Composite**: Implemented for remote controllers.
+- **Singleton**: Both configurations are represented as singleton classes.
+- **Visitor/Observer/Listener**: Used for handling events.
+- **Chain of Responsibility**: Applied to APIs and the repair system.
+- **Builder**: Implemented via `ElectronicAPIBuilder` and used in `Configuration` during house construction.
 
-●	Visitor/Observer/Listener # events.
+---
 
-●	Chain of responsibility # APIs, fixing system.
+### Configurations:
 
-●	Builder # ElectronicAPIBuilder and usage in Configuration during constructing house.
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-##### Configurations:
-    We made 2 configurations with very small differences which both should suit requirements
-    - 6 persons, 3 animals, 8 types of appliances, 20 pieces of appliances, 6 rooms, one ski, two cars.
-    We do not have json file for configuration,we have them represented as singleton classes Configuration and Configuration2.
+We created two configurations with minimal differences, both of which satisfy the project requirements:
+- 6 residents, 3 animals, 8 types of appliances, 20 individual appliances, 6 rooms, 1 pair of skis, and 2 cars.
+
+The configurations are represented as singleton classes (`Configuration` and `Configuration2`) instead of JSON files.
