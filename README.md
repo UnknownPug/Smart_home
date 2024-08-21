@@ -4,14 +4,10 @@
 
 ### Authors: Dmitry Rastvorov, Andrew Mamaev
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-### This is our main UML diagram of our project ([Powered by draw.io](https://app.diagrams.net)):
-![[Image description]](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/3f0b53d7ab58b635e5c6ff9085fefc5f/omo_uml_diagram.drawio.png)
-
--- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-### Also we have more readable version of our UML diagram ([Powered by IntelliJ Ultimate](https://www.jetbrains.com/help/idea/class-diagram.html)):
+### UML diagram of the project ([Powered by IntelliJ Ultimate](https://www.jetbrains.com/help/idea/class-diagram.html)):
 ![[Image description]](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/2f382775dead5ad83e7d6f42b53f4cc6/omo_intellij_uml.png)
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-### USER CASE diagram of our smart home code ([Powered by draw.io](https://app.diagrams.net)):
+### USER CASE diagram of the smart home code ([Powered by draw.io](https://app.diagrams.net)):
 ![[Image description]](https://gitlab.fel.cvut.cz/rastvdmy/omo_smart_home/-/wikis/uploads/3dc290c7ab15af62ee01adb747232cb4/Untitled_Diagram.drawio.png)
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
 ### Description
@@ -82,5 +78,3 @@ broken device -> person has to fix it but at first he must find the documentatio
     We made 2 configurations with very small differences which both should suit requirements
     - 6 persons, 3 animals, 8 types of appliances, 20 pieces of appliances, 6 rooms, one ski, two cars.
     We do not have json file for configuration,we have them represented as singleton classes Configuration and Configuration2.
- 
-Enjoy! 😁
